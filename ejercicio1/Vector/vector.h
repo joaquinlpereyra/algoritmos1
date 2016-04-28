@@ -5,7 +5,7 @@ class Vector {
 
     public:
         Vector();
-        Vector(float a, float o);
+        Vector(float a, float o) {abscisa = a; ordenada = o;};
         bool igualX(const Vector v);
         bool igualY(const Vector v);
         float modulo() const;
