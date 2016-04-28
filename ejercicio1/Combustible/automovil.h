@@ -5,8 +5,8 @@ class Automovil {
 
     public:
         Automovil();
-        Automovil(int cap, int litros) {cap = capTanque, litros = litrosEnTanque;};
-        int capacidadDelTanque() const {return capEnTanque;};
+        Automovil(int cap, int litros) {capTanque = cap; litrosEnTanque = litros;};
+        int capacidadDelTanque() const {return capTanque;};
         int litrosEnElTanque() const {return litrosEnTanque;};
         void llenalo();
 
